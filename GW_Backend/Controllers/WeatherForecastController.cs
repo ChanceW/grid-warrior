@@ -31,7 +31,7 @@ namespace GW_Backend.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)] + " hello world"
+                Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
         }
