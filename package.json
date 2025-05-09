@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "startWeb": "npm start --prefix ./Web ",
+    "startBackEnd": "dotnet run --project GW_Backend/GW_Backend.csproj"
+  }
+}
