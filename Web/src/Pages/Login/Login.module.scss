@@ -1,0 +1,28 @@
+$color-primary: #355e3b;
+$color-secondary: #cc9901;
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+
+  .form {
+    width: 300px;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+
+    button {
+      background-color: $color-secondary;
+      color: #000000;
+    }
+  }
+}
